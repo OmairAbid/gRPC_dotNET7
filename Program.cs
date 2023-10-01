@@ -27,7 +27,7 @@ namespace gRPC_dotNET7
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "gRPC using .NET7 Demo");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "gRPC using .NET7");
             }
             );
 
