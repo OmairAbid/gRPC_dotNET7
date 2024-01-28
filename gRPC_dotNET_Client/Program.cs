@@ -8,7 +8,7 @@ namespace gRPC_dotNET_Client
     {
         static async Task Main(string[] args)
         {
-            Console.WriteLine("Hello, gRPC World!");
+            Console.WriteLine("Hello, gRPC World! ");
             var channel = GrpcChannel.ForAddress("https://localhost:7081");
             int Count = 0;
             var watch = System.Diagnostics.Stopwatch.StartNew();
